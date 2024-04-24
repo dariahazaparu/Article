@@ -10,6 +10,7 @@ Addition:
 - included pagination on the get endpoint for articles - not available in front end
 - included validation logic for create and update on an article.
 - used dependency injection for services.
-
+- used SQLServer for database - make sure the connection string is filled.
+  
 Article.Service.API -> contains the direct access to data features (as a microservice)
 Article.Web -> simple front end design to illustrate the endpoints from API
